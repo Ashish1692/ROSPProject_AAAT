@@ -1,0 +1,205 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: medium;
+  background: #002339;
+  color: #fff;
+}
+th,td{
+  padding: 8px;
+}
+
+select,input{
+  width: 100px;
+  height: 30px;
+  background-color: #003e6b;
+  outline: none;
+  border: 1px solid #5b98c0;
+  color: white;
+  
+}
+.bgimage{
+  /* background-image: url(images.jpg); */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main_header{
+  color:#019f55;
+  font-size: 70px;
+  font-variant: small-caps;
+  text-align: center;
+  text-decoration: underline solid rgb(6, 131, 89);
+  margin: 0;
+}
+
+.header{
+  text-align: center;
+  font-size: 40px;
+  color: #019f55;
+  text-decoration: underline solid #068359;
+  font-variant: small-caps;
+  
+}
+
+.main_table {
+  /* margin-left: 28rem; */
+  text-align: left; /* Adjust alignment for desktop */
+  width: 70%; /* Adjust width as needed */
+  margin: 0 auto; /* Center content horizontally */
+}
+
+.cpu{
+  color: #019f55;
+  font-size: 1.5rem;
+  margin-bottom :1.5rem;
+  font-variant: small-caps;
+  margin-top: 2rem;
+}
+
+.box{
+  width: 20%;
+  padding: 8px 15px;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  border:  1px solid #068359 ;
+}
+
+.bttn {
+  width: auto;
+  padding: 9px 10px;
+  box-sizing: border-box;
+  
+}
+
+.main_cpu, .result{
+  /* margin-left: 28rem; */
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+/* .result{
+  margin-left: 28rem;
+} */
+
+.daily, .month, .appr{
+  font-size: 1.5rem;
+}
+
+
+.out{
+  font-size: 1.3rem;
+  color: rgb(187, 141, 141);
+}
+
+.report{
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  color: #019f55;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+    
+}
+
+.rep{
+  text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+
+/* Media Query For responsive design */
+@media (max-width: 628px)  {
+  .bgimage {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .main_header {
+    font-size: 20px;
+    margin-left: 13px;
+  }
+
+  .header {
+    font-size: 15px;
+    margin-left: 13px;
+
+  }
+
+  .main_table {
+    text-align: center; /* Center alignment for mobile */
+    width: 100%; /* Adjust width as needed */
+    margin: 0 auto;
+  }
+
+  th, tr {
+    font-size: 10px;
+    padding: 2px;
+  }
+
+  .cpu{
+    text-align: center; 
+    width: 100%; 
+    margin: 0 auto;
+    margin-top: 1rem;
+    font-size: 20px; 
+  }
+
+
+
+
+  .box{
+    font-size: 14px;
+    padding: 7.5px 10px ;
+    
+  }
+
+  .bttn{
+    padding: 7.5px 10px ;
+  }
+
+  .result{
+    text-align: center; 
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+   
+  }
+
+  .daily, .month, .appr{
+    font-size: 16px;
+  }
+
+  .out{
+    font-size: 16px;
+  }
+
+
+  .rep{
+    text-align: center; /* Center alignment for mobile */
+    width: 100%; /* Adjust width as needed */
+    margin: 0 auto;
+  }
+
+  th, tr {
+    font-size: 10px;
+    padding: 2px;
+    
+  }
+
+  
+
+  
+
+
+}

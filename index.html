@@ -1,0 +1,1044 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>consumption calculator</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid #0074c4
+
+        }
+    </style>
+    <!-- <link rel="manifest" href="/manifest.json"> -->
+    <link rel="stylesheet" type="text/css" href="/index.css">
+</head>
+
+<body >
+    <div class="bgimage">
+    
+    <h1 class="main_header">FAMT Electricity</h1>
+    <h2 class="header">consumption calculator</h2>
+    <div>
+        <table class="main_table">
+            <tr>
+                <th>Appliance</th>
+                <th> Perticulars</th>
+                <th>How many ?</th>
+                <th>Hours/day</th>
+            </tr>
+            <tr>
+                <th rowspan="4">Bulb</th>
+                <td>25 Watts</td>
+                <td><input type="number" id="25W B No" min="1" max="10"></td>
+                <td><select id="25W B H" name="25w b">
+                        <option value="1">1 hr</option>
+                        <option value="2">2 hr</option>
+                        <option value="3">3 hr</option>
+                        <option value="4">4 hr</option>
+                        <option value="5">5 hr</option>
+                        <option value="6">6 hr</option>
+                        <option value="7">7 hr</option>
+                        <option value="8">8 hr</option>
+                        <option value="9">9 hr</option>
+                        <option value="10">10 hr</option>
+                        <option value="11">11 hr</option>
+                        <option value="12">12hr</option>
+                        <option value="13">13 hr</option>
+                        <option value="14">14 hr</option>
+                        <option value="15">15 hr</option>
+                        <option value="16">16 hr</option>
+                        <option value="17">17 hr</option>
+                        <option value="18">18 hr</option>
+                        <option value="19">19 hr</option>
+                        <option value="20">20 hr</option>
+                        <option value="21">21 hr</option>
+                        <option value="22">22 hr</option>
+                        <option value="23">23 hr</option>
+                        <option value="24">24 hr</option>
+
+                    </select></td>
+            </tr>
+
+            <tr>
+                <td>40 Watts</td>
+                <td><input type="number" id="40W B No" name="40W B No" min="1" max="10"></td>
+                <td><select name="40W B H" id="40W B H">
+                        <option value="1">1 hr</option>
+                        <option value="2">2 hr</option>
+                        <option value="3">3 hr</option>
+                        <option value="4">4 hr</option>
+                        <option value="5">5 hr</option>
+                        <option value="6">6 hr</option>
+                        <option value="7">7 hr</option>
+                        <option value="8">8 hr</option>
+                        <option value="9">9 hr</option>
+                        <option value="10">10 hr</option>
+                        <option value="11">11 hr</option>
+                        <option value="12">12hr</option>
+                        <option value="13">13 hr</option>
+                        <option value="14">14 hr</option>
+                        <option value="15">15 hr</option>
+                        <option value="16">16 hr</option>
+                        <option value="17">17 hr</option>
+                        <option value="18">18 hr</option>
+                        <option value="19">19 hr</option>
+                        <option value="20">20 hr</option>
+                        <option value="21">21 hr</option>
+                        <option value="22">22 hr</option>
+                        <option value="23">23 hr</option>
+                        <option value="24">24 hr</option>
+
+                    </select></td>
+            </tr>
+            <tr>
+                <td>60 Watts</td>
+                <td><input type="number" id="60W B No" name="60W B No" min="1" max="10"></td>
+                <td><select name="60W B H" id="60W B H">
+                        <option value="1">1 hr</option>
+                        <option value="2">2 hr</option>
+                        <option value="3">3 hr</option>
+                        <option value="4">4 hr</option>
+                        <option value="5">5 hr</option>
+                        <option value="6">6 hr</option>
+                        <option value="7">7 hr</option>
+                        <option value="8">8 hr</option>
+                        <option value="9">9 hr</option>
+                        <option value="10">10 hr</option>
+                        <option value="11">11 hr</option>
+                        <option value="12">12hr</option>
+                        <option value="13">13 hr</option>
+                        <option value="14">14 hr</option>
+                        <option value="15">15 hr</option>
+                        <option value="16">16 hr</option>
+                        <option value="17">17 hr</option>
+                        <option value="18">18 hr</option>
+                        <option value="19">19 hr</option>
+                        <option value="20">20 hr</option>
+                        <option value="21">21 hr</option>
+                        <option value="22">22 hr</option>
+                        <option value="23">23 hr</option>
+                        <option value="24">24 hr</option>
+
+                    </select></td>
+            </tr>
+            <tr>
+                <td>100 Watts</td>
+                <td><input type="number" id="100W B No" name="100W B No" min="1" max="10"></td>
+                <td><select name="100w b" id="100W B H">
+                        <option value="1">1 hr</option>
+                        <option value="2">2 hr</option>
+                        <option value="3">3 hr</option>
+                        <option value="4">4 hr</option>
+                        <option value="5">5 hr</option>
+                        <option value="6">6 hr</option>
+                        <option value="7">7 hr</option>
+                        <option value="8">8 hr</option>
+                        <option value="9">9 hr</option>
+                        <option value="10">10 hr</option>
+                        <option value="11">11 hr</option>
+                        <option value="12">12hr</option>
+                        <option value="13">13 hr</option>
+                        <option value="14">14 hr</option>
+                        <option value="15">15 hr</option>
+                        <option value="16">16 hr</option>
+                        <option value="17">17 hr</option>
+                        <option value="18">18 hr</option>
+                        <option value="19">19 hr</option>
+                        <option value="20">20 hr</option>
+                        <option value="21">21 hr</option>
+                        <option value="22">22 hr</option>
+                        <option value="23">23 hr</option>
+                        <option value="24">24 hr</option>
+
+                    </select></td>
+            </tr>
+
+            <tr>
+
+                <th>Tubelight</th>
+                <td>20 Watts</td>
+                <td><input type="number" id="20 T No" name="20W t no" min="1" max="10"></td>
+                <td><select name="20w t" id="20 T H">
+                        <option value="1">1 hr</option>
+                        <option value="2">2 hr</option>
+                        <option value="3">3 hr</option>
+                        <option value="4">4 hr</option>
+                        <option value="5">5 hr</option>
+                        <option value="6">6 hr</option>
+                        <option value="7">7 hr</option>
+                        <option value="8">8 hr</option>
+                        <option value="9">9 hr</option>
+                        <option value="10">10 hr</option>
+                        <option value="11">11 hr</option>
+                        <option value="12">12hr</option>
+                        <option value="13">13 hr</option>
+                        <option value="14">14 hr</option>
+                        <option value="15">15 hr</option>
+                        <option value="16">16 hr</option>
+                        <option value="17">17 hr</option>
+                        <option value="18">18 hr</option>
+                        <option value="19">19 hr</option>
+                        <option value="20">20 hr</option>
+                        <option value="21">21 hr</option>
+                        <option value="22">22 hr</option>
+                        <option value="23">23 hr</option>
+                        <option value="24">24 hr</option>
+
+                    </select></td>
+            </tr>
+            <tr>
+                <th>CFL</th>
+                <td>20 Watts</td>
+                <td><input type="number" id="20 W CFL No" name="20 W CFL No" min="1" max="10"></td>
+                <td><select name="20W CFL H" id="20W CFL H">
+                        <option value="1">1 hr</option>
+                        <option value="2">2 hr</option>
+                        <option value="3">3 hr</option>
+                        <option value="4">4 hr</option>
+                        <option value="5">5 hr</option>
+                        <option value="6">6 hr</option>
+                        <option value="7">7 hr</option>
+                        <option value="8">8 hr</option>
+                        <option value="9">9 hr</option>
+                        <option value="10">10 hr</option>
+                        <option value="11">11 hr</option>
+                        <option value="12">12hr</option>
+                        <option value="13">13 hr</option>
+                        <option value="14">14 hr</option>
+                        <option value="15">15 hr</option>
+                        <option value="16">16 hr</option>
+                        <option value="17">17 hr</option>
+                        <option value="18">18 hr</option>
+                        <option value="19">19 hr</option>
+                        <option value="20">20 hr</option>
+                        <option value="21">21 hr</option>
+                        <option value="22">22 hr</option>
+                        <option value="23">23 hr</option>
+                        <option value="24">24 hr</option>
+
+                    </select></td>
+            </tr>
+
+            <tr>
+                <th rowspan="2">Fan</th>
+                <td>30Watts(36inches)</td>
+                <td><input type="number" id="30 F No" name="30 F No" min="1" max="10"></td>
+                <td><select name="30 F H" id="30 F H">
+                        <option value="1">1 hr</option>
+                        <option value="2">2 hr</option>
+                        <option value="3">3 hr</option>
+                        <option value="4">4 hr</option>
+                        <option value="5">5 hr</option>
+                        <option value="6">6 hr</option>
+                        <option value="7">7 hr</option>
+                        <option value="8">8 hr</option>
+                        <option value="9">9 hr</option>
+                        <option value="10">10 hr</option>
+                        <option value="11">11 hr</option>
+                        <option value="12">12hr</option>
+                        <option value="13">13 hr</option>
+                        <option value="14">14 hr</option>
+                        <option value="15">15 hr</option>
+                        <option value="16">16 hr</option>
+                        <option value="17">17 hr</option>
+                        <option value="18">18 hr</option>
+                        <option value="19">19 hr</option>
+                        <option value="20">20 hr</option>
+                        <option value="21">21 hr</option>
+                        <option value="22">22 hr</option>
+                        <option value="23">23 hr</option>
+                        <option value="24">24 hr</option>
+
+                    </select></td>
+            </tr>
+            <tr>
+                <td>50Watts (48 inches)</td>
+                <td><input type="number" id="48 F No" name="48 F No" min="1" max="10"></td>
+                <td><select name="48 F h" id="48 F H">
+                        <option value="1">1 hr</option>
+                        <option value="2">2 hr</option>
+                        <option value="3">3 hr</option>
+                        <option value="4">4 hr</option>
+                        <option value="5">5 hr</option>
+                        <option value="6">6 hr</option>
+                        <option value="7">7 hr</option>
+                        <option value="8">8 hr</option>
+                        <option value="9">9 hr</option>
+                        <option value="10">10 hr</option>
+                        <option value="11">11 hr</option>
+                        <option value="12">12hr</option>
+                        <option value="13">13 hr</option>
+                        <option value="14">14 hr</option>
+                        <option value="15">15 hr</option>
+                        <option value="16">16 hr</option>
+                        <option value="17">17 hr</option>
+                        <option value="18">18 hr</option>
+                        <option value="19">19 hr</option>
+                        <option value="20">20 hr</option>
+                        <option value="21">21 hr</option>
+                        <option value="22">22 hr</option>
+                        <option value="23">23 hr</option>
+                        <option value="24">24 hr</option>
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Table Fan</th>
+                <td>40Watts</td>
+                <td><input type="number" id="40 tF No" name="40 tF No" min="1" max="10"></td>
+                <td><select name="40 tF H" id="40 tF H">
+                        <option value="1">1 hr</option>
+                        <option value="2">2 hr</option>
+                        <option value="3">3 hr</option>
+                        <option value="4">4 hr</option>
+                        <option value="5">5 hr</option>
+                        <option value="6">6 hr</option>
+                        <option value="7">7 hr</option>
+                        <option value="8">8 hr</option>
+                        <option value="9">9 hr</option>
+                        <option value="10">10 hr</option>
+                        <option value="11">11 hr</option>
+                        <option value="12">12hr</option>
+                        <option value="13">13 hr</option>
+                        <option value="14">14 hr</option>
+                        <option value="15">15 hr</option>
+                        <option value="16">16 hr</option>
+                        <option value="17">17 hr</option>
+                        <option value="18">18 hr</option>
+                        <option value="19">19 hr</option>
+                        <option value="20">20 hr</option>
+                        <option value="21">21 hr</option>
+                        <option value="22">22 hr</option>
+                        <option value="23">23 hr</option>
+                        <option value="24">24 hr</option>
+
+                    </select>
+                </td>
+            </tr>
+
+        
+        <tr>
+            <th rowspan="2">Iron</th>
+            <td>550 Watts</td>
+            <td><input type="number" id="550 I No" name="550 I No" min="1" max="10"></td>
+            <td><select name="550 I H" id="550 I H">
+                    <option value="0.5">0.5 hr</option>
+                    <option value="1">1 hr</option>
+                    <option value="1.5">1.5 hr</option>
+                    <option value="2">2 hr</option>
+                    <option value="2.5">2.5 hr</option>
+                    <option value="3">3 hr</option>
+                    <option value="3.5">3.5 hr</option>
+                    <option value="4">4 hr</option>
+                    <option value="4.5">4.5 hr</option>
+                    <option value="5">5 hr</option>
+                    <option value="5.5">5.5 hr</option>
+                    <option value="6">6 hr</option>
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>750 Watts</td>
+            <td><input type="number" id="750 I No" name="750 I No" min="1" max="10"></td>
+            <td><select name="750 I H" id="750 I H">
+                    <option value="0.5">0.5 hr</option>
+                    <option value="1">1 hr</option>
+                    <option value="1.5">1.5 hr</option>
+                    <option value="2">2 hr</option>
+                    <option value="2.5">2.5 hr</option>
+                    <option value="3">3 hr</option>
+                    <option value="3.5">3.5 hr</option>
+                    <option value="4">4 hr</option>
+                    <option value="4.5">4.5 hr</option>
+                    <option value="5">5 hr</option>
+                    <option value="5.5">5.5 hr</option>
+                    <option value="6">6 hr</option>
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Geyser</th>
+            <td>3000 Watts</td>
+            <td><input type="number" id="3000 G No" name="3000 G No" min="1" max="10"></td>
+            <td><select name="3000 G H" id="3000 G H">
+                    <option value="0.5">0.5 hr</option>
+                    <option value="1">1 hr</option>
+                    <option value="1.5">1.5 hr</option>
+                    <option value="2">2 hr</option>
+                    <option value="2.5">2.5 hr</option>
+                    <option value="3">3 hr</option>
+                    <option value="3.5">3.5 hr</option>
+                    <option value="4">4 hr</option>
+                    <option value="4.5">4.5 hr</option>
+                    <option value="5">5 hr</option>
+                    <option value="5.5">5.5 hr</option>
+                    <option value="6">6 hr</option>
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Washing mahine</th>
+            <td>200 Watts</td>
+            <td><input type="number" id="2000 WM No" name="2000 WM No" min="1" max="10"></td>
+            <td><select name="2000 WM H" id="2000 WM H">
+                    <option value="0.5">0.5 hr</option>
+                    <option value="1">1 hr</option>
+                    <option value="1.5">1.5 hr</option>
+                    <option value="2">2 hr</option>
+                    <option value="2.5">2.5 hr</option>
+                    <option value="3">3 hr</option>
+                    <option value="3.5">3.5 hr</option>
+                    <option value="4">4 hr</option>
+                    <option value="4.5">4.5 hr</option>
+                    <option value="5">5 hr</option>
+                    <option value="5.5">5.5 hr</option>
+                    <option value="6">6 hr</option>
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th rowspan="2">Air Conditioner</th>
+            <td>1400 Watts(1 Ton)</td>
+            <td><input type="number" id="1400 AC No" name="1400 AC No" min="1" max="10"></td>
+            <td><select name="1400 AC H" id="1400 AC H">
+                    <option value="1">1 hr</option>
+                    <option value="2">2 hr</option>
+                    <option value="3">3 hr</option>
+                    <option value="4">4 hr</option>
+                    <option value="5">5 hr</option>
+                    <option value="6">6 hr</option>
+                    <option value="7">7 hr</option>
+                    <option value="8">8 hr</option>
+                    <option value="9">9 hr</option>
+                    <option value="10">10 hr</option>
+                    <option value="11">11 hr</option>
+                    <option value="12">12hr</option>
+                    <option value="13">13 hr</option>
+                    <option value="14">14 hr</option>
+                    <option value="15">15 hr</option>
+                    <option value="16">16 hr</option>
+                    <option value="17">17 hr</option>
+                    <option value="18">18 hr</option>
+                    <option value="19">19 hr</option>
+                    <option value="20">20 hr</option>
+                    <option value="21">21 hr</option>
+                    <option value="22">22 hr</option>
+                    <option value="23">23 hr</option>
+                    <option value="24">24 hr</option>
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>1800 Watts(2 Tons)</td>
+            <td><input type="number" id="1800 AC No" name="1800 AC No" min="1" max="10"></td>
+            <td><select name="1800 AC H" id="1800 AC H">
+                    <option value="1">1 hr</option>
+                    <option value="2">2 hr</option>
+                    <option value="3">3 hr</option>
+                    <option value="4">4 hr</option>
+                    <option value="5">5 hr</option>
+                    <option value="6">6 hr</option>
+                    <option value="7">7 hr</option>
+                    <option value="8">8 hr</option>
+                    <option value="9">9 hr</option>
+                    <option value="10">10 hr</option>
+                    <option value="11">11 hr</option>
+                    <option value="12">12hr</option>
+                    <option value="13">13 hr</option>
+                    <option value="14">14 hr</option>
+                    <option value="15">15 hr</option>
+                    <option value="16">16 hr</option>
+                    <option value="17">17 hr</option>
+                    <option value="18">18 hr</option>
+                    <option value="19">19 hr</option>
+                    <option value="20">20 hr</option>
+                    <option value="21">21 hr</option>
+                    <option value="22">22 hr</option>
+                    <option value="23">23 hr</option>
+                    <option value="24">24 hr</option>
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th rowspan="2">Refrigerator</th>
+            <td>200 Watts(155 liters)</td>
+            <td><input type="number" id="200 Ref No" name="200 Ref No" min="1" max="10"></td>
+            <td><select name="200 Ref H" id="200 Ref H">
+                    <option value="1">1 hr</option>
+                    <option value="2">2 hr</option>
+                    <option value="3">3 hr</option>
+                    <option value="4">4 hr</option>
+                    <option value="5">5 hr</option>
+                    <option value="6">6 hr</option>
+                    <option value="7">7 hr</option>
+                    <option value="8">8 hr</option>
+                    <option value="9">9 hr</option>
+                    <option value="10">10 hr</option>
+                    <option value="11">11 hr</option>
+                    <option value="12">12hr</option>
+                    <option value="13">13 hr</option>
+                    <option value="14">14 hr</option>
+                    <option value="15">15 hr</option>
+                    <option value="16">16 hr</option>
+                    <option value="17">17 hr</option>
+                    <option value="18">18 hr</option>
+                    <option value="19">19 hr</option>
+                    <option value="20">20 hr</option>
+                    <option value="21">21 hr</option>
+                    <option value="22">22 hr</option>
+                    <option value="23">23 hr</option>
+                    <option value="24">24 hr</option>
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>300 Watts(300 liters)</td>
+            <td><input type="number" id="300 Ref No" name="300 Ref No" min="1" max="10"></td>
+            <td><select name="300 Ref H" id="300 Ref H">
+                    <option value="1">1 hr</option>
+                    <option value="2">2 hr</option>
+                    <option value="3">3 hr</option>
+                    <option value="4">4 hr</option>
+                    <option value="5">5 hr</option>
+                    <option value="6">6 hr</option>
+                    <option value="7">7 hr</option>
+                    <option value="8">8 hr</option>
+                    <option value="9">9 hr</option>
+                    <option value="10">10 hr</option>
+                    <option value="11">11 hr</option>
+                    <option value="12">12hr</option>
+                    <option value="13">13 hr</option>
+                    <option value="14">14 hr</option>
+                    <option value="15">15 hr</option>
+                    <option value="16">16 hr</option>
+                    <option value="17">17 hr</option>
+                    <option value="18">18 hr</option>
+                    <option value="19">19 hr</option>
+                    <option value="20">20 hr</option>
+                    <option value="21">21 hr</option>
+                    <option value="22">22 hr</option>
+                    <option value="23">23 hr</option>
+                    <option value="24">24 hr</option>
+
+                </select>
+            </td>
+        </tr>
+
+    
+        <tr>
+            <th rowspan="2">oven</th>
+            <td>3000 Watts</td>
+            <td><input type="number" id="3000 OV No" name="3000 OV No" min="1" max="10"></td>
+            <td><select name="3000 OV H" id="3000 OV H">
+                    <option value="0.5">0.5 hr</option>
+                    <option value="1">1 hr</option>
+                    <option value="1.5">1.5 hr</option>
+                    <option value="2">2 hr</option>
+                    <option value="2.5">2.5 hr</option>
+                    <option value="3">3 hr</option>
+                    <option value="3.5">3.5 hr</option>
+                    <option value="4">4 hr</option>
+                    <option value="4.5">4.5 hr</option>
+                    <option value="5">5 hr</option>
+                    <option value="5.5">5.5 hr</option>
+                    <option value="6">6 hr</option>
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>5000 Watts</td>
+            <td><input type="number" id="5000 OV No" name="5000 OV No" min="1" max="10"></td>
+            <td><select name="5000 OV H" id="5000 OV H">
+                    <option value="0.5">0.5 hr</option>
+                    <option value="1">1 hr</option>
+                    <option value="1.5">1.5 hr</option>
+                    <option value="2">2 hr</option>
+                    <option value="2.5">2.5 hr</option>
+                    <option value="3">3 hr</option>
+                    <option value="3.5">3.5 hr</option>
+                    <option value="4">4 hr</option>
+                    <option value="4.5">4.5 hr</option>
+                    <option value="5">5 hr</option>
+                    <option value="5.5">5.5 hr</option>
+                    <option value="6">6 hr</option>
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Toaster</th>
+            <td>1000 Watts</td>
+            <td><input type="number" id="1000 Toast No" name="1000 Toast No" min="1" max="10"></td>
+            <td><select name="1000 Toast H" id="1000 Toast H">
+                    <option value="0.5">0.5 hr</option>
+                    <option value="1">1 hr</option>
+                    <option value="1.5">1.5 hr</option>
+                    <option value="2">2 hr</option>
+                    <option value="2.5">2.5 hr</option>
+                    <option value="3">3 hr</option>
+                    <option value="3.5">3.5 hr</option>
+                    <option value="4">4 hr</option>
+                    <option value="4.5">4.5 hr</option>
+                    <option value="5">5 hr</option>
+                    <option value="5.5">5.5 hr</option>
+                    <option value="6">6 hr</option>
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Mixer</th>
+            <td>200 Watts</td>
+            <td><input type="number" id="200 Mix No" name="200 Mix No" min="1" max="10"></td>
+            <td><select name="200 Mix H" id="200 Mix H">
+                    <option value="0.5">0.5 hr</option>
+                    <option value="1">1 hr</option>
+                    <option value="1.5">1.5 hr</option>
+                    <option value="2">2 hr</option>
+                    <option value="2.5">2.5 hr</option>
+                    <option value="3">3 hr</option>
+                    <option value="3.5">3.5 hr</option>
+                    <option value="4">4 hr</option>
+                    <option value="4.5">4.5 hr</option>
+                    <option value="5">5 hr</option>
+                    <option value="5.5">5.5 hr</option>
+                    <option value="6">6 hr</option>
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Cooking Range</th>
+            <td>5000 Watts</td>
+            <td><input type="number" id="5000 cook No" name="5000 cook No" min="1" max="10"></td>
+            <td><select name="5000 cook H" id="5000 cook H">
+                    <option value="0.5">0.5 hr</option>
+                    <option value="1">1 hr</option>
+                    <option value="1.5">1.5 hr</option>
+                    <option value="2">2 hr</option>
+                    <option value="2.5">2.5 hr</option>
+                    <option value="3">3 hr</option>
+                    <option value="3.5">3.5 hr</option>
+                    <option value="4">4 hr</option>
+                    <option value="4.5">4.5 hr</option>
+                    <option value="5">5 hr</option>
+                    <option value="5.5">5.5 hr</option>
+                    <option value="6">6 hr</option>
+
+                </select>
+            </td>
+        </tr>
+
+    
+
+        <tr>
+            <th>Speaker</th>
+            <td>100 Watts</td>
+            <td><input type="number" id="100 Speaker No" name="100 Speaker No" min="1" max="10"></td>
+            <td><select name="100 Speaker H" id="100 Speaker H">
+                    <option value="0.5">0.5 hr</option>
+                    <option value="1">1 hr</option>
+                    <option value="1.5">1.5 hr</option>
+                    <option value="2">2 hr</option>
+                    <option value="2.5">2.5 hr</option>
+                    <option value="3">3 hr</option>
+                    <option value="3.5">3.5 hr</option>
+                    <option value="4">4 hr</option>
+                    <option value="4.5">4.5 hr</option>
+                    <option value="5">5 hr</option>
+                    <option value="5.5">5.5 hr</option>
+                    <option value="6">6 hr</option>
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Television</th>
+            <td>150 Watts</td>
+            <td><input type="number" id="150 TV No" name="150 TV No" min="1" max="10"></td>
+            <td><select name="150 TV H" id="150 TV H">
+                    <option value="0.5">0.5 hr</option>
+                    <option value="1">1 hr</option>
+                    <option value="1.5">1.5 hr</option>
+                    <option value="2">2 hr</option>
+                    <option value="2.5">2.5 hr</option>
+                    <option value="3">3 hr</option>
+                    <option value="3.5">3.5 hr</option>
+                    <option value="4">4 hr</option>
+                    <option value="4.5">4.5 hr</option>
+                    <option value="5">5 hr</option>
+                    <option value="5.5">5.5 hr</option>
+                    <option value="6">6 hr</option>
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Computer</th>
+            <td>200 Watts</td>
+            <td><input type="number" id="200 Comp No" name="200 Comp No" min="1" max="10"></td>
+            <td><select name="200 Comp H" id="200 Comp H">
+                    <option value="1">1 hr</option>
+                    <option value="2">2 hr</option>
+                    <option value="3">3 hr</option>
+                    <option value="4">4 hr</option>
+                    <option value="5">5 hr</option>
+                    <option value="6">6 hr</option>
+                    <option value="7">7 hr</option>
+                    <option value="8">8 hr</option>
+                    <option value="9">9 hr</option>
+                    <option value="10">10 hr</option>
+                    <option value="11">11 hr</option>
+                    <option value="12">12hr</option>
+                    <option value="13">13 hr</option>
+                    <option value="14">14 hr</option>
+                    <option value="15">15 hr</option>
+                    <option value="16">16 hr</option>
+                    <option value="17">17 hr</option>
+                    <option value="18">18 hr</option>
+                    <option value="19">19 hr</option>
+                    <option value="20">20 hr</option>
+                    <option value="21">21 hr</option>
+                    <option value="22">22 hr</option>
+                    <option value="23">23 hr</option>
+                    <option value="24">24 hr</option>
+
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Motor</th>
+            <td>745 Watts</td>
+            <td><input type="number" id="745 Motor No" name="745 Motor No" min="1" max="10"></td>
+            <td><select name="745 Motor H" id="745 Motor H">
+                    <option value="0.5">0.5 hr</option>
+                    <option value="1">1 hr</option>
+                    <option value="1.5">1.5 hr</option>
+                    <option value="2">2 hr</option>
+                    <option value="2.5">2.5 hr</option>
+                    <option value="3">3 hr</option>
+                    <option value="3.5">3.5 hr</option>
+                    <option value="4">4 hr</option>
+                    <option value="4.5">4.5 hr</option>
+                    <option value="5">5 hr</option>
+                    <option value="5.5">5.5 hr</option>
+                    <option value="6">6 hr</option>
+
+                </select>
+            </td>
+        </tr>
+
+    </table>
+
+    <div class="main_cpu">
+    <p class="cpu">Charge Per unit :</p><input type="number" class="box" id="CPU">
+
+    <input type="button" class="bttn" onClick="calculate()" Value="CALCULATE" /><br>
+    </div>
+    </form>
+
+
+    
+
+<!-- Report generation -->
+    <div id="displayReport" style="display: none;">
+        <h2 class="report">Report</h2>
+        <table class="rep">
+            <tr>
+                <th>Appliance</th>
+                <!-- <th>Perticulars</th> -->
+                <th>Quantity</th>
+                <th>hours/day</th>
+                <th>Monthly Consumed Units</th>
+                <th>Approx Expense</th>
+            </tr>
+
+            <!-- bulbs -->
+            <tr id="Bulb25W">
+                <th>Bulb 25 Watts</th>
+                <td id="No1"></td>
+                <td id="T1"></td>
+                <td id="R1"></td>
+                <td id="C1"></td>
+
+            </tr>
+            <tr id="Bulb40W">
+                <th>Bulb 40 Watts</th>
+                <td id="No2"></td>
+                <td id="T2"></td>
+                <td id="R2"></td>
+                <td id="C2"></td>
+
+            </tr>
+            <tr id="Bulb60W">
+                <th>Bulb 60 Watts</th>
+                <td id="No3"></td>
+                <td id="T3"></td>
+                <td id="R3"></td>
+                <td id="C3"></td>
+
+
+            </tr>
+            <tr id="Bulb100W">
+                <th>Bulb 100 Watts</th>
+                <td id="No4"></td>
+                <td id="T4"></td>
+                <td id="R4"></td>
+                <td id="C4"></td>
+
+            </tr>
+            <!-- tubelight -->
+            <tr id="Tube20W">
+                <th>Tubelight 20 Watts</th>
+                <td id="No5"></td>
+                <td id="T5"></td>
+                <td id="R5"></td>
+                <td id="C5"></td>
+
+            </tr>
+            <!-- CFL -->
+            <tr id="CFL20W">
+                <th>CFL 20 Watts</th>
+                <td id="No6"></td>
+                <td id="T6"></td>
+                <td id="R6"></td>
+                <td id="C6"></td>
+
+            </tr>
+
+            <!-- FAn -->
+            <tr id="Fan30W">
+                <th>Fan 300 Watts</th>
+                <td id="No7"></td>
+                <td id="T7"></td>
+                <td id="R7"></td>
+                <td id="C7"></td>
+
+            </tr>
+            <tr id="Fan50W">
+                <th>Fan 50 Watts</th>
+                <td id="No8"></td>
+                <td id="T8"></td>
+                <td id="R8"></td>
+                <td id="C8"></td>
+
+            </tr>
+
+            <!-- Table Fan -->
+            <tr id="TFan40W">
+                <th>Table Fan 40 Watts</th>
+                <td id="No9"></td>
+                <td id="T9"></td>
+                <td id="R9"></td>
+                <td id="C9"></td>
+
+            </tr>
+
+            <!-- Iron -->
+            <tr id="Iron550W">
+                <th>Iron 550 Watts</th>
+                <td id="No10"></td>
+                <td id="T10"></td>
+                <td id="R10"></td>
+                <td id="C10"></td>
+
+            </tr><tr id="Iron750W">
+                <th>Iron 750 Watts</th>
+                <td id="No11"></td>
+                <td id="T11"></td>
+                <td id="R11"></td>
+                <td id="C11"></td>
+
+            </tr>
+
+            <!-- Geyser -->
+            <tr id="Geyser3000W">
+                <th>Geyser 3000 Watts</th>
+                <td id="No12"></td>
+                <td id="T12"></td>
+                <td id="R12"></td>
+                <td id="C12"></td>
+
+            </tr>
+
+            <!-- washing Machine -->
+            <tr id="WashM200W">
+                <th>Washing machine 200 Watts</th>
+                <td id="No13"></td>
+                <td id="T13"></td>
+                <td id="R13"></td>
+                <td id="C13"></td>
+
+            </tr>
+
+            <!-- AC -->
+            <tr id="AC1400W">
+                <th>Air Conditiner 1400 Watts</th>
+                <td id="No14"></td>
+                <td id="T14"></td>
+                <td id="R14"></td>
+                <td id="C14"></td>
+
+            </tr><tr id="AC1800W">
+                <th>Air Conditioner 1800 Watts</th>
+                <td id="No15"></td>
+                <td id="T15"></td>
+                <td id="R15"></td>
+                <td id="C15"></td>
+
+            </tr>
+
+            <!-- Refrigerator -->
+            <tr id="Ref200W">
+                <th>Refrigerator 200 Watts</th>
+                <td id="No16"></td>
+                <td id="T16"></td>
+                <td id="R16"></td>
+                <td id="C16"></td>
+
+            </tr><tr id="Ref300W">
+                <th>Refrigerator 300 Watts</th>
+                <td id="No17"></td>
+                <td id="T17"></td>
+                <td id="R17"></td>
+                <td id="C17"></td>
+
+            </tr>
+
+            <!-- Oven -->
+            <tr id="Oven3000W">
+                <th>Oven 3000 Watts</th>
+                <td id="No18"></td>
+                <td id="T18"></td>
+                <td id="R18"></td>
+                <td id="C18"></td>
+
+            </tr><tr id="Oven5000W">
+                <th>Oven 5000 Watts</th>
+                <td id="No19"></td>
+                <td id="T19"></td>
+                <td id="R19"></td>
+                <td id="C19"></td>
+
+            </tr>
+
+            <!-- toaster -->
+            <tr id="Toaster1000W">
+                <th>Toaster 1000 Watts</th>
+                <td id="No20"></td>
+                <td id="T20"></td>
+                <td id="R20"></td>
+                <td id="C20"></td>
+
+            </tr>
+
+            <!-- Mixer -->
+            <tr id="Mixer200W">
+                <th>Mixer 200 Watts</th>
+                <td id="No21"></td>
+                <td id="T21"></td>
+                <td id="R21"></td>
+                <td id="C21"></td>
+
+            </tr>
+
+            <!-- Cooking appliance -->
+            <tr id="Cook5000W">
+                <th>Cooking Range 5000 Watts</th>
+                <td id="No22"></td>
+                <td id="T22"></td>
+                <td id="R22"></td>
+                <td id="C22"></td>
+
+            </tr>
+
+            <!-- Speaker -->
+            <tr id="Speaker100W">
+                <th>Speaker 100 Watts</th>
+                <td id="No23"></td>
+                <td id="T23"></td>
+                <td id="R23"></td>
+                <td id="C23"></td>
+
+            </tr>
+
+            <!-- TV -->
+            <tr id="TV150W">
+                <th>TV 150 Watts</th>
+                <td id="No24"></td>
+                <td id="T24"></td>
+                <td id="R24"></td>
+                <td id="C24"></td>
+
+            </tr>
+
+            <!-- Computer -->
+            <tr id="Comp200W">
+                <th>Computer 200 Watts</th>
+                <td id="No25"></td>
+                <td id="T25"></td>
+                <td id="R25"></td>
+                <td id="C25"></td>
+
+            </tr>
+
+            <!-- Motar -->
+            <tr id="Motar745W">
+                <th>Motar 745 Watts</th>
+                <td id="No26"></td>
+                <td id="T26"></td>
+                <td id="R26"></td>
+                <td id="C26"></td>
+
+            </tr>
+
+            <tr id="result">
+                <th colspan="3">Total</th>
+                <td id="resultMonthlyR"></td>
+                <td id="BillR"></td>
+            </tr>
+        </table>
+        <!-- <p id="Bulb25W"></p>
+        <p id="Bulb40W"></p>
+        <p id="Bulb60W"></p>
+        <p id="Bulb100W"></p> -->
+    </div>
+
+    <div class="result1">
+        <p class="result">
+            <label class="daily">Daily Consumption:</label>
+            <span id="resultdaily" class="out"> </span><br>
+            <label class="month">Monthly Consumption:</label>
+            <span id="resultMonthly" class="out"></span><br>
+            <label class="appr">Monthly Approximate Bill:</label>
+            <span id="Bill" class="out"></span>
+        </p>
+    </div>
+    <!-- <script>
+    function calculate() {
+        var num1 = document.getElementById("25W No").value;
+      var num2 = document.getElementById("25W b t").value;
+      // Multiply the two numbers
+      var result = [(num1 * num2 *25)/1000]*30;
+
+      // Display the result
+      document.getElementById("result").innerHTML = result;
+    }</script> -->
+    <script src="/index.js"></script>
+</div>
+</body>
+
+</html>
