@@ -2,6 +2,7 @@
     "name": "Electricity Consumption Calculator",
     "short_name": "ECCa",
     "start_url": "index.html",
+    "id":"/ROSPProject_AAAT/index.html",
     "display": "standalone",
     "background_color": "#fdfdfd",
     "theme_color": "#db4938",
