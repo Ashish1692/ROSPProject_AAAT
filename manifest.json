@@ -9,6 +9,26 @@
     "orientation": "portrait-primary",
     "icons": [
         {
+            "src": "./images/icons/icons8_electrical_16px.png",
+            "type": "image/png",
+            "sizes": "16x16"
+        },
+        {
+            "src": "./images/icons/icons8_electrical_24px.png",
+            "type": "image/png",
+            "sizes": "24x24"
+        },
+        {
+            "src": "./images/icons/icons8_electrical_28px.png",
+            "type": "image/png",
+            "sizes": "28x28"
+        },
+        {
+            "src": "./images/icons/icons8_electrical_32px.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
             "src": "./images/icons/icon-72x72.png",
             "type": "image/png",
             "sizes": "72x72"
