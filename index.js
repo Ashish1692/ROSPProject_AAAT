@@ -332,3 +332,24 @@ displayReport.style.display = "block";
 
 return false; 
 }
+
+function resetTable() {
+  // Select the specific table element by its ID
+  const table = document.getElementById("mytable");
+
+  // Find all select and input elements within the specific table
+  const selects = table.getElementsByTagName("select");
+  const inputs = table.getElementsByTagName("input");
+
+  // Reset all select options to their default (first) option
+  for (let i = 0; i < selects.length; i++) {
+      selects[i].selectedIndex = 0;
+  }
+
+  // Reset all input fields to empty
+  for (let i = 0; i < inputs.length; i++) {
+      if (inputs[i].type === "text" || inputs[i].type === "number") {
+          inputs[i].value = "";
+      }
+  }
+}
